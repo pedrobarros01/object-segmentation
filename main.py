@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
-
+import matplotlib.pyplot as plt
 # Caminhos para imagens e máscaras
 IMAGE_DIR = 'database/VOC2012_train_val/VOC2012_train_val/JPEGImages/'
 MASK_DIR = 'database/VOC2012_train_val/VOC2012_train_val/SegmentationClass/'
@@ -52,6 +52,25 @@ def load_dataset(image_dir, mask_dir):
 X, Y = load_dataset(IMAGE_DIR, MASK_DIR)
 print(f"Dataset carregado: {X.shape} imagens, {Y.shape} máscaras")
 
+def plot_and_save(history, metric, save_path):
+    """Gera e salva um gráfico da métrica fornecida."""
+    plt.figure()
+    
+    # Plotar os dados de treino e validação
+    plt.plot(history.history[metric], label=f'Train {metric}')
+    plt.plot(history.history[f'val_{metric}'], label=f'Val {metric}')
+    
+    plt.title(f'{metric.capitalize()} over Epochs')
+    plt.xlabel('Epochs')
+    plt.ylabel(metric.capitalize())
+    plt.legend()
+    
+    # Salvar o gráfico
+    plt.savefig(save_path)
+    plt.close()  # Fechar para liberar memória
+
+
+
 # Definir o modelo U-Net para segmentação semântica
 def unet_model(input_size=(128, 128, 3), num_classes=21):
     inputs = tf.keras.Input(input_size)
@@ -81,4 +100,8 @@ model = unet_model()
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Treinamento
-model.fit(X, Y, batch_size=8, epochs=10, validation_split=0.1)
+history = model.fit(X, Y, batch_size=8, epochs=25, validation_split=0.1)
+# Gerar e salvar os gráficos de Loss e Accuracy
+plot_and_save(history, 'loss', 'loss_plot.png')
+plot_and_save(history, 'accuracy', 'accuracy_plot.png')
+model.save('unet_model.h5')
