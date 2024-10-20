@@ -15,3 +15,19 @@ Para facilitar a navegação e o aprendizado, o repositório está organizado em
 - **/teoria**: Explicações detalhadas sobre os conceitos fundamentais e tipos de segmentação de objetos.
 - **/aplicacoes**: Exemplos práticos e códigos de implementação em Python.
 - **/guia**: Conjuntos de dados e resultados de experimentos.
+
+## Referencias
+- https://www.ibm.com/br-pt/topics/image-segmentation
+- https://bernardo-acaldas.medium.com/como-criar-aplica%C3%A7%C3%A3o-vis%C3%A3o-computacional-para-detec%C3%A7%C3%A3o-de-imagens-7bfce2c681cd
+- https://visaocomputacional.com.br/identificacao-deteccao-reconhecimento-e-segmentacao-de-imagem-e-objetos/
+- https://maalencar.wordpress.com/2012/06/14/image-segmentation/
+- http://www.lps.usp.br/hae/apostila/segment-ead.pdf
+- https://encord.com/blog/guide-to-semantic-segmentation/
+- https://keymakr.com/blog/mastering-semantic-segmentation-annotation/
+- https://vinlab.medium.com/types-of-image-annotation-classification-detect-objection-segmentation-3f5def6665b8
+- https://www.geeksforgeeks.org/what-are-different-evaluation-metrics-used-to-evaluate-image-segmentation-models/
+- https://youtube.com/playlist?list=PL4ED6VHWe5RWWhSyhu5Tko60mWWYFJw-Z&si=xFMk3X0xwasowNuE
+
+## Base de dados
+- https://www.kaggle.com/datasets/gopalbhattrai/pascal-voc-2012-dataset
+- https://cocodataset.org/#download
