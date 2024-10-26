@@ -1,3 +1,6 @@
 database/
 .venv
 *.h5
+imgs/
+masks/
+test/
