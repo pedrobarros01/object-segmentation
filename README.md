@@ -27,7 +27,8 @@ Para facilitar a navegação e o aprendizado, o repositório está organizado em
 - https://vinlab.medium.com/types-of-image-annotation-classification-detect-objection-segmentation-3f5def6665b8
 - https://www.geeksforgeeks.org/what-are-different-evaluation-metrics-used-to-evaluate-image-segmentation-models/
 - https://youtube.com/playlist?list=PL4ED6VHWe5RWWhSyhu5Tko60mWWYFJw-Z&si=xFMk3X0xwasowNuE
-
+- https://blog.roboflow.com/what-is-r-cnn/
+- https://medium.com/thedeephub/faster-r-cnn-object-detection-5dfe77104e31
 ## Base de dados
 - https://www.kaggle.com/datasets/gopalbhattrai/pascal-voc-2012-dataset
 - https://cocodataset.org/#download
