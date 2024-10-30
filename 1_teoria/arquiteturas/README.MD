@@ -11,6 +11,8 @@
 
 3. Funções de ativação: São funções matemáticas que introduzem a não-linearidade do modelo, fazendo com que o modelo aprenda padrões mais complexos dos dados.
 
+![funcs](../images/funcs.png)
+
 4. Camadas totalmente conectadas: São as camadas que fazem as previsões necessárias com base no aprendizado das outras camadas, ou seja, é onde o modelo ira classifica/detectar/segmentar um objeto na imagem.
 
 ![cnn](../images/Convolutional-Neural-Networks-CNN-1.jpeg)
