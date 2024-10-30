@@ -14,7 +14,7 @@ Para facilitar a navegação e o aprendizado, o repositório está organizado em
 
 - **/teoria**: Explicações detalhadas sobre os conceitos fundamentais e tipos de segmentação de objetos.
 - **/aplicacoes**: Exemplos práticos e códigos de implementação em Python.
-- **/guia**: Conjuntos de dados e resultados de experimentos.
+- **/roteiro**: Exercicio de implementação
 
 ## Referencias
 - https://www.ibm.com/br-pt/topics/image-segmentation
@@ -27,6 +27,15 @@ Para facilitar a navegação e o aprendizado, o repositório está organizado em
 - https://vinlab.medium.com/types-of-image-annotation-classification-detect-objection-segmentation-3f5def6665b8
 - https://www.geeksforgeeks.org/what-are-different-evaluation-metrics-used-to-evaluate-image-segmentation-models/
 - https://youtube.com/playlist?list=PL4ED6VHWe5RWWhSyhu5Tko60mWWYFJw-Z&si=xFMk3X0xwasowNuE
+- https://blog.roboflow.com/what-is-r-cnn/
+- https://medium.com/thedeephub/faster-r-cnn-object-detection-5dfe77104e31
+- https://www.geeksforgeeks.org/u-net-architecture-explained/
+- https://blog.roboflow.com/mask-rcnn/
+- https://pyimagesearch.com/2023/11/13/faster-r-cnns/
+- https://www.youtube.com/watch?v=o4Zd-IeMlSY
+- https://youtu.be/cpXrXDVRkYE?si=86_a1vvoAUioHKgn
+- https://youtu.be/1gX9khsR3Xg?si=iGrz9eF_P40Dcuab
+- https://youtu.be/KsUXtXdWRN8?si=771r2789NAJ2osI4
 
 ## Base de dados
 - https://www.kaggle.com/datasets/gopalbhattrai/pascal-voc-2012-dataset

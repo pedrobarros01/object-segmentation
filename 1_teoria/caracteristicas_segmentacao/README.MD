@@ -17,7 +17,7 @@ Segue algumas definições dos assuntos, para esclarecer melhor:
 
 - `Segmentação de imagens`: Como abordado, essa técnica irá verificar pixel por pixel da imagem e dizer qual classe esse pixel contém(anotação de pixel). Essa técnica contém algoritmos mais classicos como o de detecção de bordas, mas ela atualmente é utilizado arquiteturas de redes convolucionais para extrair `mascaras de segmentação`, representando o limite de pixel a pixel específico e a forma de cada classe, mais polidas.
 
-![Imagem detecção](../images/segmentation.gif)
+![Imagem Segmentacao](../images/segmentation.gif)
 
 
 ## Tipos de classes
