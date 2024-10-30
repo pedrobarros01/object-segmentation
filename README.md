@@ -14,7 +14,7 @@ Para facilitar a navegação e o aprendizado, o repositório está organizado em
 
 - **/teoria**: Explicações detalhadas sobre os conceitos fundamentais e tipos de segmentação de objetos.
 - **/aplicacoes**: Exemplos práticos e códigos de implementação em Python.
-- **/guia**: Conjuntos de dados e resultados de experimentos.
+
 
 ## Referencias
 - https://www.ibm.com/br-pt/topics/image-segmentation
